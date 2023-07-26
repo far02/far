@@ -6,10 +6,20 @@
         
         <title>Farry</title>
         <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
             header {
                 background: #0d0;
                 padding: 10px;
                 text-align: center;
+            }
+            #nlfy-contact-form {
+                border: solid red;
+                padding: 10px;
+                margin: 5px;
+                background: lightGrey;
             }
             
             footer {
@@ -31,7 +41,7 @@
 
 
         <hr>
-<form name="contact" method="POST" data-netlify="true">
+<form id="nlfy-contact-form" name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
